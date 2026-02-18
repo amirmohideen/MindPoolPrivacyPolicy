@@ -1,60 +1,105 @@
 # Privacy Policy for MindPool
 
-**Last Updated:** February 12, 2026  
-**Platform:** Meta Quest 2, Quest Pro, Quest 3, and Meta Horizon OS
+**Last Updated:** February 17, 2026  
+**Platform:** Meta Quest 2, Quest Pro, Quest 3, and Meta Horizon OS  
 
-MindPool is an XR mind-mapping and note-taking application developed by **10XVAR**. We prioritize your privacy and are committed to transparency regarding data use. This policy outlines how we handle data in compliance with the Meta Developer Data Use Policy (Section 2.2) and global privacy regulations like GDPR.
+MindPool is an XR mind-mapping and note-taking application developed by **10XVAR**. We prioritize your privacy and are committed to transparency regarding data use. This Privacy Policy explains how data is handled in compliance with the Meta Developer Data Use Policy (including Section 6.2) and applicable global privacy regulations such as the GDPR.
 
 ---
 
 ## 1. Data Collection and Use
-To provide a functional experience on the Meta Horizon platform, MindPool processes the following specific Data:
 
-### A. Meta Platform Features (Required)
-* **User ID:** A unique numeric identifier provided by Meta. We use this to distinguish your save files from other users on the same device and to manage your individual app settings.
-* **User Profile:** We may access your basic display name and profile picture to personalize your in-app workspace and avatar identity.
+To provide functionality on the Meta Horizon platform, MindPool processes the following categories of data:
 
-### B. User-Generated Content (Local Only)
-* **Mind Maps & Notes:** All text, nodes, and structures you create.
-* **Web Content:** URLs and browser state used within the app.
-* **AI Interactions:** Voice or text inputs provided to the AI avatar.
+### A. Meta Platform Data (Required for App Functionality)
 
-> **Note:** All User-Generated Content is processed and stored **locally on your device**. 10XVAR does not upload, see, or store your notes or mind maps on external servers.
+* **User ID:** A unique numeric identifier provided by Meta. This is used locally to distinguish save files and manage app settings for individual users on the same device.
+* **User Profile Information:** Basic display name and profile picture may be accessed to personalize the in-app workspace or avatar identity.
+
+> Meta Platform Data (such as User ID or profile information) is processed locally and is **not shared with third-party AI providers.**
 
 ---
 
-## 2. Processing and AI Functionality
-* **Real-Time Processing:** When you interact with the AI avatar, your input is transmitted to our processing partners solely to generate a response. 
-* **No Training/Logging:** We do not store, log, or use your conversations to train AI models or for advertising purposes. 
-* **No Monetization:** We do not sell, rent, or share your User ID or Profile data with third-party brokers.
+### B. User-Generated Content (Stored Locally)
+
+The following data is created and controlled entirely by the user:
+
+* Mind maps, notes, text, and node structures  
+* Website URLs and browser state used within the app  
+* App preferences and session state  
+* AI prompt text entered by the user  
+
+All User-Generated Content is stored locally on your Quest headset as JSON files.  
+10XVAR does **not** upload, access, or store your notes, mind maps, or URLs on external servers.
+
+---
+
+## 2. AI Processing and Third-Party Service (Groq API)
+
+MindPool includes an AI avatar feature powered by the **Groq API**, which runs the Llama 3.3 model.
+
+When you interact with the AI avatar:
+
+* Only the **text you voluntarily enter** is transmitted to Groq.
+* **Meta Platform Data (User ID, profile information)** is NOT transmitted to Groq.
+* Session JSON files, mind maps, and locally stored app data are NOT automatically shared with Groq.
+* Data is transmitted solely to generate a real-time response.
+* We do not store, log, or use your AI conversations for advertising or profiling.
+* We do not sell or monetize your prompts or responses.
+
+Groq acts as a data processor strictly for the purpose of generating AI responses under our instructions.
 
 ---
 
 ## 3. Data Storage and Retention
-* **Local Storage:** Your mind maps and app preferences are stored as JSON files locally on your Quest headset.
-* **Retention:** We retain the User ID association only as long as the app is installed to ensure your progress is saved.
+
+* **Local Storage:** Mind maps, preferences, and URLs are stored locally on your Quest device as JSON files.
+* **User ID Association:** The User ID is used locally to associate your saved content with your profile on the device.
+* **Retention Period:** Data remains on your device until you delete it or uninstall the app.
+
+10XVAR does not maintain remote databases of your personal content.
 
 ---
 
-## 4. User Rights and Data Deletion (Mechanism)
-We respect your right to control your data. Because we prioritize local storage, you have the following tools:
+## 4. User Rights and Data Deletion
 
-1.  **Local Deletion:** You can delete all mind maps and app data by using the "Clear App Data" function in your Quest Settings or by uninstalling the app.
-2.  **Account Data Request:** If you wish to request the deletion of any metadata associated with your **User ID**, or if you have questions about how your data is processed, please contact us directly.
-3.  **Contact for Deletion:**
-    * **Email:** 10xvar@gmail.com
-    * **Subject Line:** Data Deletion Request - MindPool
+Because MindPool prioritizes local storage, you control your data directly.
 
-We will respond to and fulfill all deletion requests within 30 days.
+You may:
+
+1. **Delete Local Data:** Use “Clear App Data” in Quest Settings or uninstall the app.
+2. **Request Metadata Clarification or Deletion:** If you have questions about how your Meta Platform Data is processed, you may contact us.
+
+### Contact for Data Requests
+
+**Email:** 10xvar@gmail.com  
+**Subject Line:** Data Deletion Request – MindPool  
+
+We will respond to legitimate data requests within 30 days.
 
 ---
 
-## 5. Third-Party Services
-MindPool allows you to browse the web. When accessing third-party websites, your data is subject to the privacy policies of those specific sites.
+## 5. Web Browsing
+
+MindPool allows in-app browsing of external websites. When accessing third-party websites, your data is governed by the privacy policies of those respective sites.
+
+10XVAR does not collect or log your browsing history beyond what is stored locally for session continuity.
 
 ---
 
-## 6. Compliance and Governing Law
-This policy is governed by the laws of United States. We stay updated with Meta’s Developer Data Use Policy to ensure continued compliance and safety for all users.
+## 6. Data Sharing Summary
 
-**By using MindPool, you agree to the terms outlined in this Privacy Policy.**
+MindPool:
+
+* Does NOT sell user data.
+* Does NOT share Meta User ID or profile data with Groq.
+* Does NOT transmit locally stored mind maps or JSON files to third parties.
+* Only transmits user-entered AI prompt text for real-time AI processing.
+
+---
+
+## 7. Compliance and Governing Law
+
+This Privacy Policy is governed by the laws of the United States. We continuously review Meta’s Developer Data Use Policy to maintain compliance and ensure user safety.
+
+By using MindPool, you agree to the terms outlined in this Privacy Policy.
